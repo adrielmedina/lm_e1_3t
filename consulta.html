@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Datos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Consulta de Asesoria Energética</h1>
+    </header>
+    <div class="container">
+        <div class="search-block">
+            <h1>Buscar Contratos</h1>
+            <div class="search-field">
+                <label for="search-cif">CIF</label>
+                <input type="text" id="search-cif" placeholder="Buscar por CIF">
+            </div>
+            <div class="search-field">
+                <label for="search-nombre">Nombre</label>
+                <input type="text" id="search-nombre" placeholder="Buscar por Nombre">
+            </div>
+            <div class="search-field">
+                <label for="search-comercializadora">Comercializadora</label>
+                <input type="text" id="search-comercializadora" placeholder="Buscar por Comercializadora">
+            </div>
+            <div class="search-field">
+                <label for="search-estado">Estado</label>
+                <input type="text" id="search-estado" placeholder="Buscar por Estado">
+            </div>
+            <button onclick="searchData()">Buscar</button>
+        </div>
+        <div class="results-block">
+            <h1>Resultados de la Consulta</h1>
+            <div id="data-container">
+                
+            </div>
+        </div>
+    </div>
+    <div class="chart-container">
+        <canvas id="survey-chart"></canvas>
+    </div>
+    <footer>
+        <p>&copy; 2024 Consulta de Datos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
