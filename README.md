@@ -1,1 +1,1 @@
-# lm_e1_3t
+En esta evidencia teniamos que representar en unosresultados de una encuestas que se nos ha proporcionado en excel, ese excel lo hemos convertido en json y despues lo he modificado para vincularlo con el html y que funcionara correctamente, ademas de eso he añadido un styles,css para darle un diseño bonito a la pagina web, por último he añadido una grafica de donut donde representando las acciones de las encuestas.
